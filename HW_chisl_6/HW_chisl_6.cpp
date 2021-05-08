@@ -80,7 +80,7 @@ double F(double x) { return x; }
 
 int main()
 {
-    double a = 0.5, b = 0.8, step = 0.01, R = 2, S = 1, T = 1, V = 0, W = 1, Z = 3;
+    double a = 0.5, b = 0.8, step = 0.1, R = -1, S = 2, T = 1, V = 0, W = 1, Z = 3;
         FiniteDifferenceMethod(a, b, (b - a) / step,
             K, L, M, F,
             R, S, T, V, W, Z);
